@@ -1,7 +1,8 @@
 import cv2
 import face_recognition
 
-path = 'Images'
+path = 'ImagesAccess'
+images = []
 
 imgElon = face_recognition.load_image_file('ImagesBasic/Elon Musk.jpg')
 imgElon = cv2.cvtColor(imgElon, cv2.COLOR_BGR2RGB)
